@@ -28,7 +28,7 @@ const secondPart = () => {
       const str = String(i);
       const limitOfAttempts = Math.floor(str.length / 2);
       let success = false;
-      for (let hopper = limitOfAttempts; hopper > 0; hopper-=1) {
+      for (let hopper = limitOfAttempts; hopper > 0; hopper -= 1) {
         let start;
         let innerSuccess = true;
         for (let j = 0; j < str.length; j += hopper) {
