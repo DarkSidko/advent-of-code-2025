@@ -17,11 +17,11 @@ const scanForNeighbours = (matrix, i, j) => {
     [-1, +1],
   ];
   scanCombs.forEach((comb) => {
-      const newI = i + comb[0];
-      const newJ = j + comb[1];
-      if (matrix[newI]?.[newJ] === '@') {
-        counter++;
-      }
+    const newI = i + comb[0];
+    const newJ = j + comb[1];
+    if (matrix[newI]?.[newJ] === '@') {
+      counter++;
+    }
   });
   return counter;
 };
