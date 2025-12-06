@@ -33,4 +33,3 @@ const firstPart = () => {
 };
 
 firstPart();
-
